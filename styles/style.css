@@ -13,9 +13,10 @@ body {
 }
 
 .container {
-    margin-left: 205px;
-    margin-right: 205px;
-    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
 
 }
 
@@ -30,18 +31,20 @@ header {
 .logoimg {
     width: 60px;
     height: 30px;
+    
 }
+
 p{
     font-size: 16px;
 }
 
-a {
+nav a {
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
     color: black;
 }
-a:hover{
+nav a:hover{
     background-color: black;
     color: white;
 }
@@ -102,20 +105,61 @@ footer {
 .seemyworksbtn:hover{
     background-color: black;
     color: white;
+    transition-duration: 1s;
+
 }
+
 /* About me page */
 .aboutme{
     background-color: aqua;
-    height: 500px;
+    height: 800px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -28px;
+    margin-bottom: 100%;
+    display: flex;
+    flex-direction: column;
 
     
 }
-.aboutcircle{
-    width: 160px;
-    height: 160px;
-    border-radius: 160px;
-    background-color: white;
+
+.aboutmecontainer h1{
+    margin-bottom: 30px;
+    color: rgba(3, 3, 32, 0.831);
+    text-transform: capitalize;
+    font-size: 80px;
 }
+
+
+.aboutmecontainer p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+.aboutmecontainer button{
+    text-transform: uppercase;
+    background-color:blue;
+    color: white;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+    .aboutmecontainer button:hover{
+        background-color: black;
+        color: white;
+        transition-duration: 1s;
+    }
+
+
+.aboutcircle{
+    width: 360px;
+    height: 360px;
+    border-radius: 360px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
