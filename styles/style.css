@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    background-color: grey;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+
+
+}
+
+.container {
+    margin-left: 205px;
+    margin-right: 205px;
+    min-height: 300px;
+
+}
+
+header {
+    min-height: 50px;
+    margin-top: 41px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimg {
+    width: 60px;
+    height: 30px;
+}
+p{
+    font-size: 16px;
+}
+
+a {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.letstalkbtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+.letstalkbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    color:black;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+
+}
+
+.herobox1 {
+    width: 70%;
+
+}
+
+.herobox2 {
+    padding-top: 15px;
+    margin-left: 116px;
+}
+
+.mainimg {
+    width: 260px;
+    height: 230px;
+}
+
+footer {
+    min-height: 300px;
+}
+.seemyworksbtn{
+    background-color:blue;
+    color: white;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seemyworksbtn:hover{
+    background-color: black;
+    color: white;
+}
+/* About me page */
+.aboutme{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.aboutcircle{
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    background-color: white;
+}
