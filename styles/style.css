@@ -15,7 +15,7 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 800px;
     
 
 }
@@ -42,6 +42,7 @@ p{
 nav a {
     margin-left: 20px;
     margin-right: 20px;
+    text-align: left;
     text-decoration: none;
     color: black;
 }
@@ -88,7 +89,8 @@ main {
 
 .mainimg {
     width: 260px;
-    height: 230px;
+    height: 260px;
+    border-radius: 260px;
 }
 
 footer {
@@ -160,7 +162,15 @@ footer {
     border-radius: 360px;
     background-color: white;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
+    box-shadow: 400px;
+    color: black;
 }
+.aboutcircle img{
+    height: 360px;
+    width: 360px;
+    border-radius: 360px;
+}
+
 
 
