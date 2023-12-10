@@ -4,12 +4,15 @@ html {
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(217, 183, 118);
     color: white;
     text-transform: capitalize;
     font-size: 20px;
 
 
+}
+.bar_menu{
+    display: none;
 }
 
 .container {
@@ -172,6 +175,34 @@ footer {
     border-radius: 360px;
 }
 @media(max-width:900px){
+    .bar_nav{
+        margin-top: 81px;
+        display: none;
+
+    }
+    .bar_nav a{
+        display: block;
+        border-style: solid;
+        border-width: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 372px;
+        border-color: rgb(75, 51, 7);
+        
+    }
+    .bar_nav a:hover{
+        background-color: gray;
+        color: white;
+
+    }
+    .bar_menu{
+        display: block;
+        color: black;
+        
+        
+        
+        
+    }
     .container {
     width: 500px;
     padding-left: 40px;
