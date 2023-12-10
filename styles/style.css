@@ -171,6 +171,18 @@ footer {
     width: 360px;
     border-radius: 360px;
 }
+@media(max-width:900px){
+    .container {
+    width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav{
+    display: none;
+}
+
+
+}
 
 
 
