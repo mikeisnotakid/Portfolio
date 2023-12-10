@@ -177,12 +177,10 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
 }
-nav{
-    display: none;
-}
 .mainimg {
     width: 200px;
     height: 200px;
+    margin-bottom: 10px;
     padding-left: 30px;
     border-radius: 200px;
 }
@@ -205,7 +203,24 @@ main {
     flex-direction: column-reverse;
     text-align: center;
 }
-
+.seemyworksbtn{
+    background-color:blue;
+    color: white;
+    height: 52px;
+    width: 172px;
+    margin-left: 151px;
+    margin-right: 151px;
+    border: none;
+    border-radius: 92px;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+.logoimg {
+    position: fixed;    
+}
 
 }
 
