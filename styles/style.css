@@ -186,6 +186,25 @@ nav{
     padding-left: 30px;
     border-radius: 200px;
 }
+.herobox1 {
+    width: 95%;
+
+
+}
+
+.herobox2 {
+    margin-left: -71px;
+
+
+
+
+}
+main {
+    min-height: 300px;
+    display:flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
 
 
 }
