@@ -8,9 +8,9 @@ body {
     color: white;
     text-transform: capitalize;
     font-size: 20px;
-
-
 }
+
+
 .bar_menu{
     display: none;
 }
@@ -187,7 +187,8 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
         margin-left: 372px;
-        border-color: rgb(75, 51, 7);
+        background-color: black;
+        color: white;
         
     }
     .bar_nav a:hover{
