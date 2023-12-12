@@ -1,8 +1,3 @@
-html {
-    height: 100%;
-
-}
-
 body {
     background-color: rgb(217, 183, 118);
     color: white;
@@ -11,7 +6,7 @@ body {
 }
 
 
-.bar_menu{
+.bar_menu {
     display: none;
 }
 
@@ -19,7 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
-    
+
 
 }
 
@@ -34,10 +29,10 @@ header {
 .logoimg {
     width: 60px;
     height: 30px;
-    
+
 }
 
-p{
+p {
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -49,11 +44,13 @@ nav a {
     text-decoration: none;
     color: black;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: black;
     color: white;
 }
-.letstalkbtn{
+
+.letstalkbtn {
     background-color: blue;
     color: white;
     border: none;
@@ -61,14 +58,15 @@ nav a:hover{
     cursor: pointer;
 
 }
-.letstalkbtn:hover{
+
+.letstalkbtn:hover {
     background-color: black;
     color: white;
 }
 
 h1 {
     font-size: 40px;
-    color:black;
+    color: black;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -99,8 +97,9 @@ main {
 footer {
     min-height: 300px;
 }
-.seemyworksbtn{
-    background-color:blue;
+
+.seemyworksbtn {
+    background-color: blue;
     color: white;
     height: 40px;
     width: 180px;
@@ -108,7 +107,8 @@ footer {
     border-radius: 5px;
     cursor: pointer;
 }
-.seemyworksbtn:hover{
+
+.seemyworksbtn:hover {
     background-color: black;
     color: white;
     transition-duration: 1s;
@@ -116,10 +116,7 @@ footer {
 }
 
 /* About me page */
-.aboutme{
-    background-color: aqua;
-    height: 800px;
-    width: 500px;
+.aboutme {
     margin-left: auto;
     margin-right: auto;
     margin-top: -28px;
@@ -127,10 +124,10 @@ footer {
     display: flex;
     flex-direction: column;
 
-    
+
 }
 
-.aboutmecontainer h1{
+.aboutmecontainer h1 {
     margin-bottom: 30px;
     color: rgba(3, 3, 32, 0.831);
     text-transform: capitalize;
@@ -138,28 +135,31 @@ footer {
 }
 
 
-.aboutmecontainer p{
+.aboutmecontainer p {
     margin-top: 20px;
     margin-bottom: 30px;
     color: black;
 }
-.aboutmecontainer button{
+
+.aboutmecontainer button {
     text-transform: uppercase;
-    background-color:blue;
+    background-color: blue;
     color: white;
     height: 40px;
     width: 180px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;}
-    .aboutmecontainer button:hover{
-        background-color: black;
-        color: white;
-        transition-duration: 1s;
-    }
+    cursor: pointer;
+}
+
+.aboutmecontainer button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
 
 
-.aboutcircle{
+.aboutcircle {
     width: 360px;
     height: 360px;
     border-radius: 360px;
@@ -169,18 +169,21 @@ footer {
     box-shadow: 400px;
     color: black;
 }
-.aboutcircle img{
+
+.aboutcircle img {
     height: 360px;
     width: 360px;
     border-radius: 360px;
 }
-@media(max-width:900px){
-    .bar_nav{
-        margin-top: 81px;
+
+@media(max-width:900px) {
+    .bar_nav {
+        margin-top: 30px;
         display: none;
 
     }
-    .bar_nav a{
+
+    .bar_nav a {
         display: block;
         border-style: solid;
         border-width: 1px;
@@ -189,72 +192,84 @@ footer {
         margin-left: 372px;
         background-color: black;
         color: white;
-        
+        margin: auto;
+        width: 488px;
+        text-align: center;
+        margin-top: 2px;
+
     }
-    .bar_nav a:hover{
+
+    .bar_nav a:hover {
         background-color: gray;
         color: white;
 
     }
-    .bar_menu{
+
+    .bar_menu {
         display: block;
         color: black;
+        text-align: end;
+        margin-left: -32px;
         
-        
-        
-        
+
+
+
     }
+
     .container {
-    width: 500px;
-    padding-left: 40px;
-    padding-right: 40px;
+        width: 500px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .mainimg {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+        padding-left: 30px;
+        border-radius: 200px;
+    }
+
+    .herobox1 {
+        width: 95%;
+
+
+    }
+
+    .herobox2 {
+        margin-left: -71px;
+
+
+
+
+    }
+
+    main {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .seemyworksbtn {
+        background-color: blue;
+        color: white;
+        height: 52px;
+        width: 172px;
+        margin-left: 151px;
+        margin-right: 151px;
+        border: none;
+        border-radius: 92px;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 64px;
+    }
+
+    .logoimg {
+        position: fixed;
+    }
+
 }
-.mainimg {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-    padding-left: 30px;
-    border-radius: 200px;
-}
-.herobox1 {
-    width: 95%;
-
-
-}
-
-.herobox2 {
-    margin-left: -71px;
-
-
-
-
-}
-main {
-    min-height: 300px;
-    display:flex;
-    flex-direction: column-reverse;
-    text-align: center;
-}
-.seemyworksbtn{
-    background-color:blue;
-    color: white;
-    height: 52px;
-    width: 172px;
-    margin-left: 151px;
-    margin-right: 151px;
-    border: none;
-    border-radius: 92px;
-    cursor: pointer;
-}
-p{
-    font-size: 20px;
-    margin-bottom: 64px;
-}
-.logoimg {
-    position: fixed;    
-}
-
-}
-
-
-
